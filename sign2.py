@@ -53,12 +53,11 @@ if authentication_status:
     state = st.session_state
     bp = st.text_input("PATH")
 
-    # if (not bp):
-    #     st.info('The annotation will begin, once you entered the folder path.')
-    #     st.stop()
+    if (not bp):
+        st.info('The annotation will begin, once you entered the folder path.')
+        st.stop()
     
-    # BASE_PATH = bp
-    BASE_PATH = '/Users/datalab/Documents/personal/streamlit-sales-dashboard-with-userauthentication/pumpkin'
+    BASE_PATH = bp
     OPTIONS = ["Nystagmus", "Meniere's Disease", "BPPV"]
 
     if "annotations" not in state:
