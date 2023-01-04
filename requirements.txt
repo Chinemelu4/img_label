@@ -2,9 +2,7 @@ streamlit_authenticator
 streamlit
 pandas 
 numpy
-pickle
-pathlib
-os
-PIL
-random
+
+
+
 
