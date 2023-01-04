@@ -4,7 +4,7 @@ pandas
 numpy
 pickle
 pathlib
-ios
+os
 PIL
 random
 
